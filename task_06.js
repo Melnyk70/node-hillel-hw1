@@ -1,0 +1,7 @@
+// Task 06
+
+//Створіть іменований модуль integerPart, який отримує десятковий дріб і повертає його цілу частину.
+
+export function integerPart(num) {
+    return Math.trunc(num);
+}
