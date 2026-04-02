@@ -4,10 +4,6 @@
 // Якщо передано порожній рядок — повертає порожній рядок.
 
 export function randomSymbol(str) {
-    if (str === '') {
-        return '';
-    }
-
-    const index = Math.floor(Math.random() * str.length);
-    return str[index];
+  const index = Math.floor(Math.random() * str.length);
+  return str.charAt(index);
 }
